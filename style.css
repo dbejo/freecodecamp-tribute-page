@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+#img-div {
+  
+}
+#image {
+  display: block;
+  margin: auto;
+  max-width: 700px;
+  width: 70%;
+  height: auto;
+  border-radius: 1%;
+}
+#title {
+  width: 100%;
+  height: 600px;
+display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  font-size: 120px;
+  text-shadow: 5px 5px 5px #000;
+  color: #fff;
+  background-image: url('https://www.kuki.cz/media/media_img/legendarny-steve-irwin_2H2UQeC.jpg');
+  background-size: cover;
+  filter: grayscale(100%);
+}
+#img-caption {
+  text-align: center;
+  color: gray;
+  font-size: 12pt;
+}
+#tribute-info {
+  padding: 0px 20% 0px 20%;
+  font-size: 15pt;
+}
+footer {
+  background-color: #e3e3e3;
+  padding: 3% 20% 3% 20%;
+  Font-size: 15pt;
+}
+#tribute-link {
+  text-decoration: none;
+  color: #009921;
+}
+#tribute-link:visited {
+  color: #00871d;
+}
+#tribute-link:hover {
+  color: #00c22a;
+}
